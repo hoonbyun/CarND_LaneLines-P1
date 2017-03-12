@@ -51,14 +51,8 @@ Compute slop for each candidate line to classify if slop is negative, the line b
 
 ###2. Identify potential shortcomings with your current pipeline
 
-
-One potential shortcoming would be what would happen when ... 
-
-Another shortcoming could be ...
-
+Currently, the area of interesting and the crossing lines are hard coded values which couldn't propoerly adapt the different size of the images or videos.
 
 ###3. Suggest possible improvements to your pipeline
 
-A possible improvement would be to ...
-
-Another potential improvement could be to ...
+Use scale factor with respect to the size of the image to define the area of interesting so as to prcess the pixels interesting, in that way different sie of images can be processed for the interesting area only in point of front camera view. 
